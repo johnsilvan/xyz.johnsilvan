@@ -22,3 +22,9 @@ My personal site
     ```
     ./task_build.sh
     ```
+1. Deploy site
+    Uses ansible to deploy container of the site to host present in /etc/ansible/hosts called vps using username "username"
+    ```
+    ansible-playbook main.yml -l vps -u username
+    ```
+    
