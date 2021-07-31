@@ -28,8 +28,7 @@
     docker push johnsilvan/johnsilvan.xyz:tagname
     ```
 ## Deployment
-1. Deploy site
-    Uses ansible to deploy container of the site to host present in /etc/ansible/hosts called vps using username "username"
+1. Ansible to deploy container of the site to host present in /etc/ansible/hosts called vps using username "username"
     ```
     ansible-playbook main.yml -l vps -u username
     ```
