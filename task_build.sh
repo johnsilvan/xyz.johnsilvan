@@ -13,6 +13,6 @@ version=$1
 
 hugo --cleanDestinationDir
 
-docker build -t johnsilvan/johnsilvan.xyz:latest -t johnsilvan/johnsilvan:${version} .
+docker build -t johnsilvan/johnsilvan.xyz:latest -t johnsilvan/johnsilvan.xyz:${version} .
 
 echo "Completed ${0} in ${SECONDS} s"
