@@ -1,6 +1,3 @@
-xyz.johnsilvan
-
-
 My personal site
 
 ## Development
