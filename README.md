@@ -20,7 +20,11 @@ My personal site
     ```
 1. Build site
     ```
-    ./task_build.sh
+    ./task_build.sh tagname
+    ```
+1. Publish docker image to docker hub
+    ```
+    docker push johnsilvan/johnsilvan.xyz:tagname
     ```
 1. Deploy site
     Uses ansible to deploy container of the site to host present in /etc/ansible/hosts called vps using username "username"
