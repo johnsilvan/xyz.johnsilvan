@@ -1,5 +1,5 @@
 baseURL: "https://www.johnsilvan.xyz/"
-title: John Silvan 
+title: John Silvan
 paginate: 5
 theme: PaperMod 
 
@@ -46,9 +46,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
-    # author: ["Me", "You"] # multiple authors
+    description: "John Silvan's Personal Website"
+    author: John Silvan
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -77,12 +76,20 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Home"
-        Content: >
-            Welcome to my corner of the internet. Come on in and make yourself at home.
-            My [Blog](/archives) is a loose collection of thoughts, things learned, and who-knows-whats.  
+                  - Title: "Home"
+                    Content: "Welcome to my corner of the internet. My [Blog](/archives) is a loose collection of thoughts, things learned, and who-knows-whats.This site should be available soon as **JSON** and **RSS**."
+                  - Title: "Work"
+                    Content: "I'm a Software Developer at HSBC Technology in Pune, India.
+            Here's my resume in [HTML](/resume/resume.html) and [JSON](/resume/resume.json)"
+                  - Title: "Education"
+                    Content: "I have a B.tech in Computer Science from [VIT](https://vit.ac.in/) and a Post Graduate Diploma in Machine Learning & Artificial Intelligence from [IIITB](https://www.iiitb.ac.in/)"
+                  - Title: "Contact"
+                    Content: "Wann get in touch? Email me at mailme@johnsilvan.xyz or johnsilvan70@gmail.com.<br>Find me elsewhere on [Github](https://github.com/johnsilvan) and [Linkedin](https://www.linkedin.com/in/johnsilvan/)"
+                  - Title: "Various"
+                    Content: "“**Get in over your head as often and as joyfully as possible.**” – Alexander Isley, Designer and American Institute of Graphic Arts medalist"
+ 
 
-            This site should be available soon as **JSON** and **RSS**.
+            
 
 
     socialIcons:
@@ -106,12 +113,12 @@ params:
     #         SiteVerificationTag: "XYZabc"
 
     # assets:
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
+    #     favicon: "/favicon.ico"
+    #     favicon16x16: "/favicon-16x16.png"
+    #     favicon32x32: "/favicon-32x32.png"
+    #     apple_touch_icon: "/apple-touch-icon.png"
     #     safari_pinned_tab: "<link / abs url>"
-
+ 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
     #     hiddenInList: true # hide on list pages and home

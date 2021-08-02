@@ -13,6 +13,8 @@ version=$1
 
 hugo --cleanDestinationDir
 
+./task_get_resume.sh
+
 docker build -t johnsilvan/johnsilvan.xyz:latest -t johnsilvan/johnsilvan.xyz:${version} .
 
 echo "Completed ${0} in ${SECONDS} s"

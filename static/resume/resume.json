@@ -1,0 +1,165 @@
+{
+   "basics":{
+      "name":"John Silvan",
+      "label":"Software Developer",
+      "picture":"",
+      "email":"mailme@johnsilvan.xyz",
+      "phone":"+91 9444884724",
+      "website":"www.johnsilvan.xyz",
+      "summary":"I enjoy solving technical problems. Keen interest in distributed system architecture and designing highly scalable and available systems. My curiosity always has me looking for ways to improve current processes. Let's build something useful together.",
+      "location":{
+         "countryCode":"IND",
+         "address":"India"
+      },
+      "profiles":[
+         {
+            "network":"LinkedIn",
+            "username":"johnsilvan",
+            "url":"https://www.linkedin.com/in/johnsilvan/"
+         },
+         {
+            "network":"Github",
+            "username":"johnsilvan",
+            "url":"https://github.com/johnsilvan"
+         }
+      ]
+   },
+   "work":[
+      {
+         "name":"HSBC Wealth and Personal Banking",
+         "highlights":[
+            "Led the implementation of Application performance management tools such as AppDynamics and Splunk for the credit control and fraud systems.",
+            "Achieved 100% adoption of AppDynamics in 80+ IT services.",
+            "Responsible for the deployment, maintenance of the monitoring agents in an automated fashion, over 2000+ agents deployed and being maintained.",
+            "Auto-healing of applications to reduce time to recovery.",
+            "Created multiple automated health monitoring solutions which were previously being monitoring manually."
+         ],
+         "position":"Devops Engineer",
+         "startDate":"2020-01-31",
+         "summary":"",
+         "website":"https://www.linkedin.com/company/1241"
+      },
+      {
+         "name":"HSBC Commercial Banking",
+         "endDate":"2020-01-31",
+         "highlights":[
+            "Improved the development cycle by including unit testing and automated tested which resulted in around 20-30% reduction in defects being leaked to higher environments.",
+            "Created a solution to enable automated deployment in a COTS product which does not natively support any CD tools.",
+            "Created a pattern of coding which incorporated an object-oriented pattern of design which enabled reuse of components, inheritance, encapsulation and all the other object-oriented goodness."
+         ],
+         "position":"Software Engineer",
+         "startDate":"2018-07-31",
+         "summary":"",
+         "website":"https://www.linkedin.com/company/1241"
+      },
+      {
+         "name":"IIT,Madras",
+         "endDate":"2017-07-31",
+         "highlights":[
+            "Created the solution for the secure movement of data between an external data source and an internal system using Golang and PostgreSQL."
+         ],
+         "position":"Software Development Intern",
+         "startDate":"2017-06-30",
+         "summary":"",
+         "website":"https://www.linkedin.com/company/157267"
+      },
+      {
+         "name":"Zenstill Analytics",
+         "endDate":"2016-12-31",
+         "highlights":[
+            "Responsible for front-end development using HTML, CCS, JavaScript and dabbled a bit with ionic framework."
+         ],
+         "position":"Software Developer Internship",
+         "startDate":"2016-12-31",
+         "summary":"",
+         "website":"https://www.linkedin.com/company/6797175"
+      }
+   ],
+   "volunteer":[
+      
+   ],
+   "education":[
+      {
+         "institution":"IIIT,Bangalore",
+         "area":"Computer Science",
+         "studyType":"Post Graduate Diploma in Machine Learning & Artificial Intelligence",
+         "startDate":"2019-12-31",
+         "endDate":"2020-12-31",
+         "gpa":"",
+         "courses":[
+            
+         ]
+      },
+      {
+         "institution":"Vellore Institute of Technology",
+         "area":"Computer Science",
+         "studyType":"Bachelor's degree",
+         "startDate":"2014-12-31",
+         "endDate":"2018-12-31",
+         "gpa":"",
+         "courses":[
+            
+         ]
+      }
+   ],
+   "awards":[
+      
+   ],
+   "publications":[
+      
+   ],
+   "skills":[
+      {
+         "name":"Backend",
+         "level":"",
+         "keywords":[
+            "Java",
+            "Maven",
+            "Spring and Springboot ecosystem(cloud, security, data etc)",
+            "Oracle databases"
+         ]
+      },
+      {
+         "name":"Devops",
+         "level":"",
+         "keywords":[
+            "Azure",
+            "GCP",
+            "Appdynamics",
+            "Splunk",
+            "Jenkins",
+            "Docker",
+            "Ansible",
+            "Bash scripting",
+            "Process Automation"
+         ]
+      }
+   ],
+   "languages":[
+      {
+         "language":"English",
+         "fluency":"Native Speaker"
+      },
+      {
+         "language":"Tamil",
+         "fluency":"Native Speaker"
+      }
+   ],
+   "interests":[
+      {
+         "name":"HomeLabbing"
+      },
+      {
+         "name":"Competitive Gaming mainly Dota 2"
+      },
+      {
+         "name":"Driving cars"
+      },
+      {
+         "name":"Reddit"
+      }
+   ],
+   "references":[
+      
+   ]
+}

@@ -1,0 +1,15 @@
+<article class="first-entry home-info">
+ {{- range $.Site.Params.homeInfoParams }}
+   <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <section class="entry-content">
+        <p>{{ .Content | markdownify }}</p>
+    </section>
+    {{if eq .Title "Home" }}
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" $.Site.Params.socialIcons }}
+    </footer>
+    {{- end -}}
+ {{- end -}}
+</article>
