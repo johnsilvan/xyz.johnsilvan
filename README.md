@@ -1,4 +1,4 @@
-#My personal site
+# My personal site
 
 ## Development
 
@@ -18,6 +18,7 @@
     ```
     ./task_serve.sh
     ```
+## Build and Publish
 1. Build site
     ```
     ./task_build.sh tagname
@@ -26,8 +27,8 @@
     ```
     docker push johnsilvan/johnsilvan.xyz:tagname
     ```
-1. Deploy site
-    Uses ansible to deploy container of the site to host present in /etc/ansible/hosts called vps using username "username"
+## Deployment
+1. Ansible to deploy container of the site to host present in /etc/ansible/hosts called vps using username "username"
     ```
     ansible-playbook main.yml -l vps -u username
     ```
