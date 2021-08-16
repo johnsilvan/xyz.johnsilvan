@@ -2,20 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.johnsilvan.xyz/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://www.johnsilvan.xyz/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://www.johnsilvan.xyz/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://www.johnsilvan.xyz/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://www.johnsilvan.xyz/archives/</loc>
   </url><url>
     <loc>https://www.johnsilvan.xyz/categories/</loc>
   </url><url>
+    <loc>https://www.johnsilvan.xyz/</loc>
+  </url><url>
+    <loc>https://www.johnsilvan.xyz/search/</loc>
+  </url><url>
     <loc>https://www.johnsilvan.xyz/series/</loc>
+  </url><url>
+    <loc>https://www.johnsilvan.xyz/tags/</loc>
   </url>
 </urlset>
