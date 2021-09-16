@@ -1,10 +1,10 @@
 ---
 - hosts: all
   become: true
+  vars_files:
+   - vars/default.yml
   vars:
-    create_containers: 1 
-    default_container_name: johnsilvan.xyz 
-    default_container_image: johnsilvan/johnsilvan.xyz:0.1.1 
+    default_container_image: johnsilvan/johnsilvan.xyz:{{ version }} 
 
   tasks:
     - name: Pull default Docker image
